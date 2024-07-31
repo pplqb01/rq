@@ -13,4 +13,4 @@ jobs:
           name: Build Docker image
           command: |
             hostname
-            docker build -t app .
+            docker build -t app . --progress=plain
